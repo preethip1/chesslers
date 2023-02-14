@@ -1,0 +1,15 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding-top: 8em;
+}
+
+.rights {
+  text-align: center;
+  color: white;
+}
