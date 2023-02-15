@@ -7,7 +7,9 @@ function Navbar() {
   const { data: session } = useSession();
   return (
     <div className={styles.navbar_container}>
-      <div className={styles.chesslers}>Chesslers</div>
+      <Link href="/" className={styles.chesslers}>
+        <div className={styles.chesslers}>Chesslers</div>{" "}
+      </Link>
       <div className={styles.navbar_subcontainer}>
         <div className={styles.search_container}>
           <svg
@@ -35,6 +37,13 @@ function Navbar() {
             ></span>
           </div>
         </div>
+        {session ? (
+          <Link href="/info" className={styles.info}>
+            Info
+          </Link>
+        ) : (
+          ""
+        )}{" "}
         <Link href="/leaderboard" className={styles.leaderboard}>
           Leaderboard
         </Link>
