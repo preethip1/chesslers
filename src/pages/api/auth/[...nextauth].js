@@ -12,7 +12,7 @@ export const authOptions = {
         id: "lichess",
         name: "Lichess",
         type: "oauth",
-        clientId: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+        clientId: CONFIG.clientID,
         clientSecret: CONFIG.authToken,
         client: {
           token_endpoint_auth_method:"client_secret_post"
