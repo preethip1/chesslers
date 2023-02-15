@@ -1,4 +1,5 @@
 import styles from "./navbar.module.css";
+import Link from 'next/link';
 
 function Navbar() {
   return (
@@ -31,7 +32,7 @@ function Navbar() {
             ></span>
           </div>
         </div>
-        <div className={styles.leaderboard}>Leaderboard</div>
+         <Link href="/leaderboard" className={styles.leaderboard}>Leaderboard</Link>
         <div className={styles.btn_container}>
           <button className={styles.login_btn}>Login with </button>
           <svg

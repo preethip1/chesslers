@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbar from "../../components/navbar";
 import MainContent from "./main-content";
 import Steps from "./steps";
 import Company from "./company";
