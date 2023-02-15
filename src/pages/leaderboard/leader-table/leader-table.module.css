@@ -1,0 +1,56 @@
+.table_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100%;
+  padding-top: 4em;
+}
+
+.table {
+  width: 50%;
+  background-color: #37415180;
+  color: white;
+  border-radius: 0.5em;
+  margin: 2em;
+}
+
+.table th {
+  padding: 2em;
+  margin: 2em;
+  border-bottom: 0.5px solid white;
+}
+
+.table td {
+  border-bottom: 0.5px solid white;
+  padding: 1.2em;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.weekly {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #ffd700;
+  text-align: end;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #ffd700;
+  text-align: start;
+}
+
+.table tbody {
+  height: 500px;
+}
+
+.table_data {
+  font-size: 1.5em;
+  font-weight: 700;
+}
